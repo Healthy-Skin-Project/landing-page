@@ -8,7 +8,7 @@ const Hero = () => {
             Your skin<br />has questions about acne.
           </h1>
           <p className="hero-subtitle">
-            <em style={{ color: '#d9601a', fontStyle: 'italic', fontWeight: 700 }}>
+            <em style={{ color: 'var(--color-coral)', fontStyle: 'italic', fontWeight: 700 }}>
               We have answers.
             </em>
             <br /><br />

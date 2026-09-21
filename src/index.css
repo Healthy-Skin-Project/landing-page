@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -7,16 +7,20 @@
 }
 
 :root {
-  --color-dark: #1a1918;
-  --color-dark-2: #252220;
-  --color-accent: #d9601a;
-  --color-accent-dark: #b34d12;
-  --color-white: #ffffff;
-  --color-off-white: #f5f4f2;
-  --color-muted: #a09d99;
-  --color-border: #e5e2de;
+  /* Brand palette — Navy dominant, Coral as a small accent only */
+  --color-navy: #1E3A52;
+  --color-coral: #CF6748;
+  --color-sand: #B08B6E;
+  --color-cream: #FAF6EF;
 
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --color-dark: var(--color-navy);
+  --color-accent: var(--color-coral);
+  --color-white: var(--color-cream);
+  --color-off-white: var(--color-cream);
+  --color-muted: var(--color-sand);
+  --color-border: rgba(176, 139, 110, 0.4);
+
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
   line-height: 1.5;
   color: var(--color-dark);
   background-color: var(--color-white);
@@ -36,7 +40,7 @@ a {
 
 h1, h2, h3, h4 {
   line-height: 1.1;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 img {
