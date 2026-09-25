@@ -15,6 +15,32 @@ const Footer = () => {
             <a href="#resources">Resources</a>
             <a href="#">Contact Us</a>
           </nav>
+          <div className="footer-social">
+            <a
+              href="https://www.instagram.com/healthy.skin_project/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://www.tiktok.com/@thehealthyskinproject"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+            >
+              TikTok
+            </a>
+            <a
+              href="https://www.youtube.com/@TheHealthySkinProject"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+            >
+              YouTube
+            </a>
+          </div>
         </div>
         <div className="footer-bottom">
           <p>
