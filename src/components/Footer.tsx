@@ -13,7 +13,7 @@ const Footer = () => {
             <a href="#about-acne">About Acne</a>
             <a href="#team">Our Team</a>
             <a href="#resources">Resources</a>
-            <a href="#">Contact Us</a>
+            <a href="mailto:thehealthyskinproject@gmail.com">Contact Us</a>
           </nav>
           <div className="footer-social">
             <a
