@@ -17,7 +17,7 @@ const team: TeamMember[] = [
   {
     name: 'Vinesh Rao',
     role: 'Co-Presenter',
-    bio: 'Vinesh is a first-year medical student at the University of Alberta with a background in psychology and a strong interest in dermatology and skin health. His passion for learning about the skin is reflected through initiatives such as organizing a hands-on skin biopsy workshop for medical students and participating in ongoing dermatology research. Through The Healthy Skin Project, he hopes to make skin education more approachable, evidence-based, and engaging for the community.',
+    bio: 'Vinesh is a second-year medical student at the University of Alberta with a background in psychology and a strong interest in dermatology and skin health. His passion for learning about the skin is reflected through initiatives such as organizing a hands-on skin biopsy workshop for medical students and participating in ongoing dermatology research. Through The Healthy Skin Project, he hopes to make skin education more approachable, evidence-based, and engaging for the community.',
     color: 'var(--color-sand)',
     image: '/vin.jpg',
   },
